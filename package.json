@@ -1,0 +1,24 @@
+{
+  "name": "chat.io-app",
+  "version": "1.0.0",
+  "description": "chat app with socket.io | express",
+  "main": "server.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon Server/server.js"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "socket",
+    "chat",
+    "chat app",
+    "socket chat app"
+  ],
+  "author": "Khaled Elbahr",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "socket.io": "^4.5.4"
+  }
+}
