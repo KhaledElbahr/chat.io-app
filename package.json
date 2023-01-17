@@ -4,8 +4,8 @@
   "description": "chat app with socket.io | express",
   "main": "server.js",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon Server/server.js"
+    "build": "nodemon Server/server.js",
+    "start": "node app.js"
   },
   "devDependencies": {},
   "keywords": [
